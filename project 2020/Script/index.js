@@ -192,6 +192,115 @@ var masiv1 = masiv0;
 masiv0[0] = 1000;
 console.log(masiv1); */
 
-var arr = [4, 7, 10, 20];
+// var arr = [4, 7, 10, 20];
 
-console.log(arr[arr.length - 1]);
+// console.log(arr[arr.length - 1]);
+/* var result = ''; */
+// for (var i = 1; i <= 10; i++){
+//     for (var j = 1; j <= 10; j++){
+//         result = i + ' * ' + j + ' = ' + i * j;
+//         console.log(result);
+//     }
+
+//     console.log('');
+//     console.log('');
+// }
+
+/* for (var i = 1; i <= 10; i++){
+    for (var j = 1; j <= 10; j++){
+        result = `${i} * ${j} = ${i* j}`;
+        console.log(result);
+    }
+
+    console.log('');
+    console.log('');
+} */
+
+/* var numbers = [7, 2, 88, 11, 102, 3];
+var max = numbers [0];
+var secondMax = -Infinity;
+
+for (var i = 0; i <= numbers.length; i++) {
+    if (max < numbers[i]){
+        secondMax = max;
+        max = numbers[i];
+    }
+    if (secondMax < numbers[i] && numbers[i] < max){
+        secondMax = numbers[i];
+    }
+}
+
+console.log(max);
+console.log(secondMax); */
+
+
+
+
+
+/* function sayName0 (name) {
+    alert(` my name is ${name}`);
+}
+
+console.log (typeof sayName);
+sayName0('Exo'); */
+
+/* function sayName1 ( ) {
+    alert(` my name is Exo`);
+}
+
+console.log (typeof sayName1);
+sayName1('Exo'); */
+
+/* function calc (a, b) {
+    console.log(a);
+    return a + b;
+    console.log(b);
+}
+
+var y = calc(30, 40);
+
+console.log(y); */
+
+/* var b = 10; 
+
+function f (){
+    b = 20;
+}
+f();
+
+console.log(b); */
+
+/* function f (a, b, c){
+    alert(a);
+    console.log(b + c);
+}
+f(40, 7, 10, 50 ,60); */
+
+/* var max = Math.max(7, 9, 20, -5);
+console.log(max); */
+
+/* function floor (number){
+    return number - (number % 1);
+}
+
+var y = floor(2.3);
+
+console.log(y); */
+
+/* console.log(0.1 + 0.3 == 0.3);
+alert(0.1 + 0.2); */
+
+/* function round(number){
+    if (number % 1 >= 0.5) {
+        return number - (number % 1) + 1;
+    } else {
+        return number - (number % 1);
+    }
+}
+
+var y = round(4.5);
+console.log(y); */
+
+/* var arr = new Array('3');
+console.log(arr.length, arr); */
+
