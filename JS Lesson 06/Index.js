@@ -235,8 +235,81 @@
 // console.log(test.concat([45,7878,555]);)
 
 
+// Array.prototype.myJoin = function(value) {
+//    var result = '';
+
+//    for (var i = 0; i < this.length; i++){
+
+//         if (i === this.length - 1){
+//             result += this[i];
+//         } else {
+//            result += `${this[i]}${value}`;
+//         }
+//    }
+
+//    return result;
+// }
+
+// var arr = [12, 45, 110];
 
 
-// test.join
-// test.reverse
-// test.concat
+
+// console.log(arr.myJoin('*'));
+
+// Array.prototype.myConcat = function (arr) {
+//     var result = [];
+
+//     for (let i = 0; i < this.length; i++) {
+//         result.push(this[i]);
+//     }
+
+//     for (let i = 0; i < arr.length; i++) {
+//         result.push(arr[i]);
+//     }  
+
+//     return result;
+// }    
+
+// var arr = [1, true, {}];
+
+// console.log(arr.myConcat([800, 900]));
+
+
+// Array.prototype.mySlice = function(start = 0, end) {
+//     var result = [];
+
+//     for (let i = start; i < (end ||this.length); i++){
+//         result.push(this[i]);
+//     }
+
+//     return result;
+// }
+
+// var arr = [1, 50, 200, 80, 90];
+// console.log(arr.mySlice());
+
+
+// var today = new Date();
+
+// console.log(today);
+
+
+// var date = new Date();
+
+// date.setDate(0);
+
+// console.log(date);
+
+
+// var date = new Date();
+
+// date.setFullYear(1992, 10, 6);
+
+// console.log(date);
+
+
+// shift
+// unshift
+// splice
+
+// funkcya lini erb call anenq patahakan tiv veradardzni   (random tiv)
